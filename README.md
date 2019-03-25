@@ -36,13 +36,11 @@ VLANs Operation Successful - See returned data for results
 
 ## Features
 
-Include a succinct summary of the features/capabilities of your project.
-
 - Print list of VLANs in a Meraki network using the Meraki Python module
 
 ## Technologies & Frameworks Used
 
-This is Cisco Sample Code! In this small example script we're using the meraki Python module.
+This is Cisco Sample Code! In this small example script we're using the [Meraki Python Module](https://github.com/meraki/dashboard-api-python).
 
 **Cisco Products & Services:**
 
