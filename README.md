@@ -4,68 +4,77 @@
 
 ---
 
-**ToDo's:**
-
-- [ ] Consider writing your README first.  Doing so helps you clarify your intent, focuses your project, and it is much more fun to write documentation at the beginning of a project than at the end of one, see:
-    - [Readme Driven Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
-    - [GitHub Guides: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-- [ ] Ensure you put the [license and copyright header](./HEADER) at the top of all your source code files.
-- [ ] Be mindful of the third-party materials you use and ensure you follow Cisco's policies for creating and sharing Cisco Sample Code.
-
----
-
 ## Motivation
 
-Include a short description of the motivation behind the creation and maintenance of the project.  Explain **why** the project exists.
+This script is an example for participants in the Meraki API activity at the API Tech Open House in Herndon, VA.
 
 ## Show Me!
 
-What visual, if shown, clearly articulates the impact of what you have created?  In as concise a visualization as possible (code sample, CLI output, animated GIF, or screenshot) show what your project makes possible.
+``` Python
+python usc_herndon_api_open_house_meraki_example.py
+Organization Operation Successful - See returned data for results
+
+Network Operation Successful - See returned data for results
+
+VLANs Operation Successful - See returned data for results
+
+[{'applianceIp': '192.168.128.1',
+  'dhcpBootFilename': None,
+  'dhcpBootNextServer': None,
+  'dhcpBootOptionsEnabled': False,
+  'dhcpHandling': 'Run a DHCP server',
+  'dhcpLeaseTime': '1 day',
+  'dhcpOptions': [],
+  'dnsNameservers': 'upstream_dns',
+  'fixedIpAssignments': {},
+  'id': 1,
+  'name': 'Default',
+  'networkId': 'L_646829496481099586',
+  'reservedIpRanges': [],
+  'subnet': '192.168.128.0/24'}]
+```
 
 ## Features
 
 Include a succinct summary of the features/capabilities of your project.
 
-- Feature 1
-- Feature 2
-- Feature 3
+- Print list of VLANs in a meraki network using the meraki Python module
 
 ## Technologies & Frameworks Used
 
-This is Cisco Sample Code!  What Cisco and third-party technologies are you working with?  Are you using a coding framework or software stack?  A simple list will set the context for your project.
+This is Cisco Sample Code! In this small example script we're using the meraki Python module.
 
 **Cisco Products & Services:**
 
-- Product
-- Service
+- Meraki Dashboard API
 
 **Third-Party Products & Services:**
 
-- Product
-- Service
+- requests
 
 **Tools & Frameworks:**
 
-- Framework 1
-- Automation Tool 2
+- [Meraki Python Module](https://github.com/meraki/dashboard-api-python)
 
 ## Usage
 
-If people like your project, they will want to use it.  Show them how.
+python usc_herndon_api_open_house_meraki_example.py
 
 ## Installation
 
-Provide a step-by-step series of examples and explanations for how to install your project and its dependencies.
+- pip install -r requirements.txt
+- git clone https://github.com/CiscoSE/usc_herndon_api_open_house_meraki_example
 
 ## Authors & Maintainers
 
 Smart people responsible for the creation and maintenance of this project:
 
 - Sam Byers <sabyers@cisco.com>
+- Kory Wood <kowood@cisco.com>
 
 ## Credits
 
-Give proper credit.  Inspired by another project or article?  Was your work made easier by a tutorial?  Include links to the people, projects, and resources that were influential in the creation of this project.
+Meraki for making an easy to use Python module.
 
 ## License
 
