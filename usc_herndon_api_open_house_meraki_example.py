@@ -31,13 +31,12 @@ __copyright__ = "Copyright (c) 2019 Cisco and/or its affiliates."
 __license__ = "Cisco Sample Code License, Version 1.1"
 
 
-@click.command()
 def main(*args, **kwargs):
 
     pp = pprint.PrettyPrinter(width=41, compact=True)
 
     # Use your own API key for the Meraki dashboard API
-    api_key = ""
+    api_key = "your_api_key"
 
     my_orgs = meraki.myorgaccess(api_key)
 
