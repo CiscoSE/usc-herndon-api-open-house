@@ -38,7 +38,7 @@ VLANs Operation Successful - See returned data for results
 
 Include a succinct summary of the features/capabilities of your project.
 
-- Print list of VLANs in a meraki network using the meraki Python module
+- Print list of VLANs in a Meraki network using the Meraki Python module
 
 ## Technologies & Frameworks Used
 
@@ -66,8 +66,6 @@ python usc_herndon_api_open_house_meraki_example.py
 - git clone https://github.com/CiscoSE/usc_herndon_api_open_house_meraki_example
 
 ## Authors & Maintainers
-
-Smart people responsible for the creation and maintenance of this project:
 
 - Sam Byers <sabyers@cisco.com>
 - Kory Wood <kowood@cisco.com>
