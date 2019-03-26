@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""usc_herndon_api_open_house_meraki_example Console Script.
+"""vlan_list_example Console Script.
 
 Copyright (c) 2019 Cisco and/or its affiliates.
 
