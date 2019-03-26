@@ -11,7 +11,7 @@ This script is an example for participants in the Meraki API activity at the API
 ## Show Me!
 
 ``` Python
-python usc_herndon_api_open_house_meraki_example.py
+python vlan_list_example.py
 Organization Operation Successful - See returned data for results
 
 Network Operation Successful - See returned data for results
@@ -56,7 +56,7 @@ This is Cisco Sample Code! In this small example script we're using the [Meraki 
 
 ## Usage
 
-python usc_herndon_api_open_house_meraki_example.py
+python vlan_list_example.py
 
 ## Installation
 
