@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-"""top_users_example Console Script.
+"""camera_snapshot_example Console Script.
 
 Copyright (c) 2019 Cisco and/or its affiliates.
 

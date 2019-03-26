@@ -1,4 +1,4 @@
-# usc_herndon_api_open_house_meraki_example
+# vlan_list_example
 
 *Code for a Meraki API activity at a USC API Open House Event in Herndon, VA*
 
